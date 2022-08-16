@@ -41,7 +41,7 @@ function preview(element){
   categoryName.textContent = selectedImgCategory;
   previewBox.classList.add("show");
   shadow.classList.add("show");
-  closeIcon.onclick = ()=>{
+  closeIcon.onclick, previewBox.onclick = ()=>{
     previewBox.classList.remove("show");
     shadow.classList.remove("show");
     document.querySelector("body").style.overflow = "auto";
