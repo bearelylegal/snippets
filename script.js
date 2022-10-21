@@ -20,11 +20,11 @@ window.onload = ()=>{
         }
       });
     }
-  }
+  };
   for (let i = 0; i < filterImg.length; i++) {
     filterImg[i].setAttribute("onclick", "preview(this)");
   }
-}
+};
 
 
 const previewBox = document.querySelector(".preview-box"),
@@ -45,5 +45,5 @@ function preview(element){
     previewBox.classList.remove("show");
     shadow.classList.remove("show");
     document.querySelector("body").style.overflow = "auto";
-  }
+  };
 }
